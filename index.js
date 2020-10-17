@@ -30,7 +30,7 @@ client.connect(err => {
 
         reviewCollection.insertOne(event)
         .then(result => {
-          res.redirect('http://localhost:3000/user');
+          res.redirect('https://creative-agency-b222e.web.app/user');
           console.log("added event succesful");
         })
     })
@@ -48,7 +48,7 @@ client.connect(err => {
 
         userServiceCollection.insertOne(event)
         .then(result => {
-          res.redirect('http://localhost:3000/user');
+          res.redirect('https://creative-agency-b222e.web.app/user');
           console.log("added event succesful");
         })
     })
@@ -67,7 +67,7 @@ client.connect(err => {
 
         serviceCollection.insertOne(event)
         .then(result => {
-          res.redirect('http://localhost:3000/admin');
+          res.redirect('https://creative-agency-b222e.web.app/admin');
           console.log("added event successful");
         })
 
